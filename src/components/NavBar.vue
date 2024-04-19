@@ -5,8 +5,8 @@
     <span class="navbar-toggler-icon"></span>
   </button> 
   <span class="name animate__animated animate__backInDown"><router-link to="/home"> <p style="color:white; text-shadow:blue 8px 4px 14px;">Turbo</p></router-link></span>
- <span class="nav-icons mx-3"><router-link v-if="$cookies.get('jwt')"to="/cart"> <i class="fa fa-cart-shopping " id="cart"></i></router-link>
- <router-link  v-if="$cookies.get('jwt')" to="/profile"><i class="fa fa-user" id="cart"></i></router-link></span>
+ <span class="nav-icons mx-3 ">
+ <router-link  v-if="$cookies.get('jwt')" to="/profile"><i class="fa fa-user ml-12" id="cart"></i></router-link></span>
 <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
   <div class="offcanvas-header">
     <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel"></h5>
@@ -29,6 +29,9 @@
       <li class="nav-item">
           <router-link v-if="$cookies.get('jwt')" to="/products" class="nav-link">Garage</router-link>
       </li>
+      <li class="nav-item">
+        <router-link v-if="$cookies.get('jwt')" to="/cart" class="nav-link">My cart</router-link>
+    </li>
       <li class="nav-item"   >
           <router-link to="/contact" class="nav-link">Contact</router-link>
       </li>

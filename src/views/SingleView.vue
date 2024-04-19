@@ -6,7 +6,7 @@
                  <div class="col-lg-6 my-2">
                  <div class="card animate__animated animate__lightSpeedInLeft">
                     
-                 <img :src="product.prodUrl" alt="" class="card-img-top " style="max-height: 300px;">
+                 <img :src="product.prodUrl" alt="" class="card-img-top " style="max-height: 300px; background-color:black;">
                </div>
                  </div>
                  <div class="col-lg-6 my-2">
@@ -64,7 +64,7 @@
      padding: 10px;
      border: 2px solid #d9d9d9;
      color: #d9d9d9;
-     background-color: red;
+     background-color: black;
  }
  
  .title{
