@@ -136,7 +136,7 @@ export default {
     padding: 0.5rem;
     padding-top:80px;
     
-    background-image: url(https://i.postimg.cc/nrFmZRZj/itl-cat-wallpaper-de-carros-3153463-1.jpg);
+    background-color: lightblue;
     background-size: cover;
     background-position: center;
  

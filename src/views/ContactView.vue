@@ -1,7 +1,7 @@
 <template>
     <div class="contact-container">
       <div class="left-col ">
-        <img class="logo" src="https://i.ibb.co/KDbR9zn/download-21-removebg-preview.png"/>
+       
       </div>
       <div class="right-col">
         <div class="theme-switch-wrapper ">
@@ -84,7 +84,7 @@
   .left-col {
     width: 45vw;
     height: 100%;
-    background-image: url("https://images.pexels.com/photos/931018/pexels-photo-931018.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+    background-image: url("https://i.postimg.cc/fy8br2sP/challenger-5880009-1280.jpg");
     background-size: cover;
     background-repeat: no-repeat;
   }

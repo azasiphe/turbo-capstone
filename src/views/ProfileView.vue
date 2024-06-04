@@ -100,7 +100,7 @@
   }
   
   .profile {
-    background-color: rgb(90, 292, 395);
+    background-color: #040B13;
     height: 50%;
     width: 60%;
     justify-content: center;
