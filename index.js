@@ -19,7 +19,7 @@ console.log(pool);
 const app = express()
 
 app.use(cors(
-    {origin: " http://localhost:8080", 
+    {origin: "*", 
   credentials: true}
 ))
 app.use( (req, res, next) => {
